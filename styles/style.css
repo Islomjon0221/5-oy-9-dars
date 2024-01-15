@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #0800ff;
+    /* color: #FFF; */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #FFF;
+}
+
+.card {
+    margin-left: 30px;
+    border: 3px solid #FFF;
+    padding: 30px;
+    width: 250px;
+    background: #0800ff;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 30px;
+    color: #FFF;
+}
+
+.card p {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #FFF;
+    margin-top: 15px;
+}
+
+.card button {
+    color: #0800ff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 15px 30px;
+    background: #ffffff;
+    border: 3px solid #FFF;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.err button {
+    color: #0800ff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 15px 30px;
+    background: #ffffff;
+    border: 3px solid #FFF;
+    border-radius: 10px;
+    margin-bottom: 20px ;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.5s;
+}
+
+.err button:hover {
+    background: #0800ff;
+    border: 3px solid #FFF;
+    color: #FFF;
+}
+
+.card button:hover {
+    background: #0800ff;
+    border: 3px solid #FFF;
+    color: #FFF;
+}
